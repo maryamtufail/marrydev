@@ -1,75 +1,73 @@
-# Maryam Tufail - Senior Frontend Engineer Portfolio
-A high-performance, minimalist portfolio built with **Next.js 16**, **Tailwind CSS**, and **Framer Motion**. Designed for senior engineers who value precision, typography, and clean code.
+# Maryam Tufail – Senior Frontend Engineer Portfolio
 
+Minimal, fast portfolio built with **Next.js 16**, **Tailwind CSS**, and **Framer Motion**.  
+Content is fully managed via **JSON**. Includes optional **Gemini AI** integration.
+
+![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ## ✨ Features
 
-- **Next.js 16 (App Router)**: Leveraging the latest React features for optimal performance.
-- **Dynamic Theming**: Built-in theme switcher with multiple professional color palettes and font pairings.
-- **Framer Motion**: Smooth, high-end animations and transitions.
-- **Responsive Design**: Fully optimized for all devices, from mobile to ultra-wide monitors.
-- **Project Modals**: Detailed project views with rich content and feature highlights.
-- **Data-Driven**: All content is managed via a central `portfolio.json` file for easy updates.
+- [x] **Next.js 16 (App Router)** – Latest architecture for optimal performance.
+- [x] **Fully Responsive** – Looks great on all devices.
+- [x] **Smooth Animations** – Powered by Framer Motion.
+- [x] **Theme Customization** – Easy to adapt to your brand.
+- [x] **JSON-Based Content** – No CMS needed; edit content directly in JSON files.
+- [x] **Gemini AI Integration** – Optional AI-powered features.
 
-## 🚀 How to Use (JSON-First Customization)
+## 🚀 Quick Start
 
-This portfolio is designed to be **content-agnostic**. You don't need to touch the React code to make it yours.
+Get the project up and running in a few minutes.
 
-### 1. Prepare your Data
-All content is managed in `/data/portfolio.json`. 
+### 1. Clone the Repository
 
-1.  Locate `/data/portfolio.example.json`.
-2.  Copy its content into `/data/portfolio.json` (or edit the existing one).
-3.  Fill in your own details:
-    *   **Profile**: Your contact info, social links, and key metrics.
-    *   **Experience**: Your work history as a list of bullet points.
-    *   **Skills**: Categorized technical expertise.
-    *   **Projects**: Your best work with descriptions and impact metrics.
-    *   **Theme**: Customize the hex codes to change the entire site's look and feel.
+```bash
+git clone https://github.com/maryamtufail/portfolio.git
+cd portfolio
+```
 
-### 2. Deploy
-Once you've updated the JSON, simply push your changes to GitHub and deploy to **Vercel**, **Netlify**, or any Next.js compatible host.
+### 2. Install Dependencies
 
----
+```bash
+npm install
+```
 
-## 🛠️ Technical Setup
+### 3. Configure Environment (Optional for AI Features)
 
-### Prerequisites
-- Node.js 18.x or later
-- npm or yarn
+Create a `.env.local` file in the project root:
 
-### Installation
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/maryamtufail/portfolio.git
-   cd portfolio
-   ```
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-3. **Run the development server:**
-   ```bash
-   npm run dev
-   ```
-4. **Open the app:**
-   Navigate to [http://localhost:3000](http://localhost:3000) to see the result.
+```bash
+touch .env.local
+```
 
-## 🤝 Contributing
+Add your Gemini API Key inside `.env.local`:
 
-Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
+```env
+NEXT_PUBLIC_GEMINI_API_KEY="MY_GEMINI_API_KEY"
+```
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+#### How to get your free API Key:
+
+1. Visit [Google AI Studio](https://aistudio.google.com/).
+2. **Sign in** with your Google account.
+3. Go to the **Bottom-left sidebar**.
+4. Click **Get API Key**.
+5. Click **Create API Key**.
+
+### 4. Run the Development Server
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+MIT License
 
-## ✉️ Contact
+---
 
-Maryam Tufail - [maryamtufail76@gmail.com](mailto:maryamtufail76@gmail.com)
-
+Built with ❤️ by **Maryam Tufail**
