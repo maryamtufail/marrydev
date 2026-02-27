@@ -1,12 +1,10 @@
 # Maryam Tufail - Senior Frontend Engineer Portfolio
+A high-performance, minimalist portfolio built with **Next.js 16**, **Tailwind CSS**, and **Framer Motion**. Designed for senior engineers who value precision, typography, and clean code.
 
-A high-performance, minimalist portfolio built with **Next.js 15**, **Tailwind CSS**, and **Framer Motion**. Designed for senior engineers who value precision, typography, and clean code.
-
-![Portfolio Preview](https://picsum.photos/seed/portfolio/1200/600)
 
 ## ✨ Features
 
-- **Next.js 15 (App Router)**: Leveraging the latest React features for optimal performance.
+- **Next.js 16 (App Router)**: Leveraging the latest React features for optimal performance.
 - **Dynamic Theming**: Built-in theme switcher with multiple professional color palettes and font pairings.
 - **Framer Motion**: Smooth, high-end animations and transitions.
 - **Responsive Design**: Fully optimized for all devices, from mobile to ultra-wide monitors.
