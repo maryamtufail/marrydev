@@ -1,0 +1,154 @@
+{
+  "profile": {
+    "name": "Maryam Tufail",
+    "lastName": "Tufail.",
+    "title": "Senior Frontend Engineer",
+    "email": "maryamtufail76@gmail.com",
+    "phone": "+92 314 8682205",
+    "website": "marrydev.com",
+    "github": "https://github.com/maryamtufail",
+    "linkedin": "https://linkedin.com/in/maryamtufaill",
+    "location": "Punjab, Pakistan",
+    "summary": "Senior Frontend Engineer with 6+ years delivering scalable web and mobile applications for 300K+ users. Expert in React, Next.js, TypeScript, and React Native.",
+    "yearsOfExp": "6+",
+    "activeUsers": "300K+",
+    "perfIncrease": "48%",
+    "contractImpact": "$2M+"
+  },
+  "theme": {
+    "primary": "#18181b",
+    "accent": "#a1a1aa",
+    "highlight": "#34d399",
+    "background": "#ffffff",
+    "text": "#18181b"
+  },
+  "skills": [
+    {
+      "category": "Core Technologies",
+      "items": ["React.js", "Next.js", "TypeScript", "JavaScript (ES6+)", "React Native", "Tailwind CSS", "shadcn/ui"]
+    },
+    {
+      "category": "State & Performance",
+      "items": ["Redux Toolkit", "TanStack Query", "GraphQL", "REST APIs", "Core Web Vitals", "SSR/SSG/ISR"]
+    },
+    {
+      "category": "Tools & Infrastructure",
+      "items": ["Git/GitHub", "Vite", "Webpack", "Docker", "GitHub Actions", "Vercel", "Jest", "Storybook"]
+    },
+    {
+      "category": "Productivity / AI",
+      "items": ["Cursor AI", "GitHub Copilot", "Claude", "Antigravity"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Learnigo",
+      "role": "Senior Frontend Engineer",
+      "period": "Feb 2025 – Present",
+      "location": "California, US (Remote)",
+      "description": [
+        "Architected and delivered web and mobile applications using React and React Native, serving 300K+ active learners.",
+        "Led SCORM 1.2/2004 integration initiative that enabled enterprise LMS compatibility, contributing to $2M+ in new contracts.",
+        "Improved application performance by 48% through strategic code-splitting and lazy loading.",
+        "Established component library and design system (React + Storybook + Tailwind) reducing dev time by 30%."
+      ]
+    },
+    {
+      "company": "Sapphire Solution",
+      "role": "Senior Frontend Engineer",
+      "period": "Sep 2023 – Jan 2025",
+      "location": "California, US (Remote)",
+      "description": [
+        "Built enterprise-grade analytics dashboard serving 5,000+ daily users using React.js and TanStack Table.",
+        "Developed SEO-optimized marketing platform using Next.js, achieving 95+ Lighthouse scores.",
+        "Architected cross-platform desktop application with Electron.js featuring offline-first architecture.",
+        "Engineered high-conversion e-commerce storefront using Next.js App Router and Shopify API."
+      ]
+    },
+    {
+      "company": "IKS Logics",
+      "role": "Mid-Level Frontend Engineer",
+      "period": "Jan 2022 – Sep 2023",
+      "location": "Lahore, Pakistan (Remote)",
+      "description": [
+        "Contributed to centralized SaaS platform managing operations for 40+ martial arts schools across Japan.",
+        "Developed real-time attendance tracking and automated payment reminders.",
+        "Created 12+ adventure games using Twine (HTML/CSS/JS) for client engagement.",
+        "Redesigned company website, improving Core Web Vitals scores by 60%."
+      ]
+    },
+    {
+      "company": "MedCare MSO",
+      "role": "Full Stack Engineer",
+      "period": "Mar 2019 – Dec 2021",
+      "location": "Lahore, Pakistan",
+      "description": [
+        "Built React.js pages ranking #1–3 on Google for medical billing keywords.",
+        "Implemented HIPAA-compliant contact forms and specialty dynamic pages.",
+        "Drove 180% growth in organic traffic over 24 months through SEO strategy."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Learnigo",
+      "category": "EdTech Platform",
+      "impact": "300K+ Users",
+      "tags": ["React", "React Native", "SCORM", "Tailwind"],
+      "description": "Architected a massive learning platform serving 15+ school districts with enterprise LMS compatibility.",
+      "longDescription": "Learnigo is a comprehensive EdTech ecosystem designed to bridge the gap between traditional classroom learning and digital accessibility. As the lead architect, I oversaw the development of both the web and mobile applications, ensuring a seamless cross-platform experience for over 300,000 active learners. The project's core challenge was integrating legacy SCORM standards with a modern React stack, which we achieved by building a custom wrapper that allowed enterprise LMS compatibility without sacrificing performance.",
+      "features": [
+        "Cross-platform mobile app built with React Native",
+        "SCORM 1.2/2004 compliant learning engine",
+        "Real-time progress tracking and analytics for teachers",
+        "Offline mode for learning in low-connectivity areas"
+      ],
+      "link": "https://learnigo.com"
+    },
+    {
+      "title": "ipyramids",
+      "category": "E-commerce",
+      "impact": "40% Faster Loads",
+      "tags": ["Next.js", "GraphQL", "Shopify API"],
+      "description": "High-conversion storefront with ISR/SSG resulting in 25% increase in conversion rate.",
+      "longDescription": "ipyramids is a premium e-commerce platform built for high-performance retail. By leveraging Next.js's Incremental Static Regeneration (ISR), we were able to serve thousands of product pages with the speed of static files while maintaining real-time inventory accuracy. The frontend communicates with a headless Shopify backend via GraphQL, allowing for complex product filtering and a lightning-fast checkout experience.",
+      "features": [
+        "Headless Shopify integration via GraphQL",
+        "Incremental Static Regeneration for 2000+ products",
+        "Custom-built cart and checkout flow",
+        "Advanced SEO optimization with dynamic metadata"
+      ],
+      "link": "https://ipyramids.com"
+    },
+    {
+      "title": "CloutJump",
+      "category": "SaaS Platform",
+      "impact": "95+ Lighthouse",
+      "tags": ["Next.js", "Contentful", "Tailwind"],
+      "description": "SEO-optimized marketing platform integrated with headless CMS for top-tier performance.",
+      "longDescription": "CloutJump is a marketing-first SaaS platform designed for rapid content deployment. The site is integrated with Contentful CMS, allowing non-technical marketing teams to update site content without developer intervention. We focused heavily on Core Web Vitals, achieving perfect 100 scores in several categories and ensuring the platform remains competitive in search rankings.",
+      "features": [
+        "Headless CMS integration with Contentful",
+        "Automated image optimization and lazy loading",
+        "Dynamic landing page builder for marketing teams",
+        "Edge-cached content delivery via Vercel"
+      ],
+      "link": "https://cloutjump.com"
+    },
+    {
+      "title": "ManageMyDojo",
+      "category": "Operations SaaS",
+      "impact": "35% Admin Reduction",
+      "tags": ["React", "Real-time", "Payments"],
+      "description": "Centralized platform for martial arts schools in Japan, managing 15,000+ students.",
+      "longDescription": "ManageMyDojo is a specialized ERP system tailored for martial arts academies. Operating primarily in the Japanese market, the platform handles everything from student enrollment and attendance to automated billing and belt testing schedules. The real-time attendance feature uses a tablet-optimized interface that allows instructors to check in students with a single tap, significantly reducing administrative overhead.",
+      "features": [
+        "Real-time student attendance tracking",
+        "Automated subscription billing and payment reminders",
+        "Multi-language support (English and Japanese)",
+        "Tablet-optimized dashboard for on-site use"
+      ],
+      "link": "https://managemydojo.jp"
+    }
+  ]
+}

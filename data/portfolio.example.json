@@ -1,0 +1,58 @@
+{
+  "profile": {
+    "name": "Your Name",
+    "lastName": "Lastname.",
+    "title": "Your Professional Title",
+    "email": "your.email@example.com",
+    "phone": "+1 234 567 890",
+    "website": "yourwebsite.com",
+    "github": "https://github.com/yourusername",
+    "linkedin": "https://linkedin.com/in/yourusername",
+    "location": "Your Location",
+    "summary": "A brief professional summary of your career and goals.",
+    "yearsOfExp": "X+",
+    "activeUsers": "X+",
+    "perfIncrease": "X%",
+    "contractImpact": "$X+"
+  },
+  "theme": {
+    "primary": "#18181b",
+    "accent": "#a1a1aa",
+    "highlight": "#34d399",
+    "background": "#ffffff",
+    "text": "#18181b"
+  },
+  "skills": [
+    {
+      "category": "Category Name",
+      "items": ["Skill 1", "Skill 2", "Skill 3"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Company Name",
+      "role": "Your Role",
+      "period": "Start Date – End Date",
+      "location": "Location",
+      "description": [
+        "Key achievement or responsibility 1",
+        "Key achievement or responsibility 2"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Project Title",
+      "category": "Project Category",
+      "impact": "Key Metric (e.g. 10k Users)",
+      "tags": ["Tech 1", "Tech 2"],
+      "description": "Short project description.",
+      "longDescription": "Detailed project description for the modal view.",
+      "features": [
+        "Feature 1",
+        "Feature 2"
+      ],
+      "link": "https://projectlink.com"
+    }
+  ]
+}
