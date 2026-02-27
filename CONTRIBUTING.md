@@ -1,40 +1,25 @@
-# Contributing to the Portfolio Project
+## 🤝 Contributing & Usage
 
-First off, thank you for considering contributing to this project! It's people like you who make the open-source community such an amazing place to learn, inspire, and create.
+This project is currently **stable with no known bugs**. Feel free to use it as a template for your own portfolio!
 
-## Code of Conduct
+### 🚀 Want to Add a Feature?
+I welcome high-quality feature contributions. If you have an idea that enhances the project:
+1. **Fork** the repository.
+2. **Implement** your feature (ensure it aligns with the current design).
+3. **Submit a Pull Request**. 
+   * *Note: Only well-tested, clean, and perfect implementations will be merged.*
 
-By participating in this project, you are expected to uphold our Code of Conduct:
-- Use welcoming and inclusive language
-- Be respectful of differing viewpoints and experiences
-- Gracefully accept constructive criticism
-- Focus on what is best for the community
+### 💻 Quick Setup for Contributions
 
-## How Can I Contribute?
-
-### Reporting Bugs
-- Use the GitHub issue tracker to report bugs.
-- Describe the bug in detail and provide steps to reproduce it.
-
-### Suggesting Enhancements
-- Open a new issue and describe the feature you'd like to see.
-- Explain why this enhancement would be useful to the project.
-
-### Pull Requests
-- Ensure your code follows the existing style of the project.
-- Update the documentation if you're making changes to functionality.
-- Make sure the build passes and there are no linting errors.
-
-## Development Setup
-
-1. Fork the repo and clone it locally.
-2. Install dependencies: `npm install`.
-3. Start the dev server: `npm run dev`.
-4. Make your changes in a new branch.
-
-## Style Guide
-- Use TypeScript for all new components.
-- Use Tailwind CSS for styling.
-- Follow the existing component structure in `/components`.
-
-Thank you for your contributions!
+```bash
+git clone https://github.com/maryamtufail/marrydev.git
+```
+```bash
+cd marrydev
+```
+```bash
+npm install
+```
+```bash
+npm run dev
+```
