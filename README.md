@@ -73,4 +73,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Maryam Tufail - [maryamtufail76@gmail.com](mailto:maryamtufail76@gmail.com)
 
-Project Link: [https://github.com/maryamtufail/portfolio](https://github.com/maryamtufail/portfolio)
